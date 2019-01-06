@@ -11,7 +11,7 @@ jQuery plugin to set up synchronized sliders with custom CSS transitions. This p
 
 ## Usage
 
-```$('.your-slide-container-selector').multislide();```
+    $('.your-slide-container-selector').multislide();
 
 ## Options
 
@@ -61,13 +61,7 @@ All event handlers in the plugin use the `.multislideDefault` namespace, so you 
 
 ### `nextSlide` and `prevSlide`
 
-*Method equivalents: `.multislide('next')` and `.multislide('prev')`
-
-## TODO
-
-- Add default CSS that should be on most/all transitions (such as .pre-almost-active having no transition-duration).
-- Add sample CSS for some basic transitions.
-- Add the ability to involve any slides *between* the almost-inactive and almost-active slides in a transition.
+*Method equivalents: `.multislide('next')` and `.multislide('prev')`*
 
 Advance the slider forward or backward by one slide.
 
@@ -90,3 +84,9 @@ Triggered on a slide when the transition to it begins and ends, respectively.
 ### `slideDeactivateStart`, `slideDeactivateEnd`
 
 Triggered on a slide when the transition away from it begins and ends, respectively.
+
+## TODO
+
+- Add default CSS that should be on most/all transitions (such as .pre-almost-active having no transition-duration).
+- Add sample CSS for some basic transitions.
+- Add the ability to involve any slides *between* the almost-inactive and almost-active slides in a transition.
